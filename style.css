@@ -1,0 +1,34 @@
+.form-box{
+    background-color: rgb(235, 235, 235, .2);
+}
+.effect:hover{
+    transition: .5s;
+   transform: translateY(30px);
+    border: 1px solid rgba(255, 0, 0, 0.3);
+}
+.effect-2:hover{
+    transition: .5s;
+   transform: translatex(30px) !important;
+}
+.effect-3:hover{
+    transition: .5s;
+   transform: translatex(-30px) !important;
+}
+.effect-4:hover{
+    transition: .5s;
+   transform: translatey(-30px) !important;
+}
+
+.effetc,.effect-2,.effect-3,.effect-4{
+    transition: .6s;
+}
+.over-effect img:hover{
+transform: scale(1.2);
+}
+.over-effect img{
+transition: 1s;
+}
+.price{
+    background-color: rgb(238, 237, 237, .4);
+    margin-top: 30px;
+}
